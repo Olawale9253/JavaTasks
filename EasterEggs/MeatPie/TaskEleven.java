@@ -8,7 +8,6 @@
 
    //System.out.println("Number Assigned is 60 ");
 
-
     System.out.println("Half Of 60 is " + Half);
 }
 }
