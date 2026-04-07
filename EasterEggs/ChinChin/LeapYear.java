@@ -8,7 +8,7 @@ import java.util.Scanner;
 
     System.out.print("Enter month: ");
 
-    String Month = UserInput.next();
+    String Month = UserInput.nextLine();
 
     System.out.print("Enter year: ");
     
@@ -21,50 +21,50 @@ import java.util.Scanner;
     System.out.println("31 days");
 
 }
-    else if (Month == "February")
+    else if (Month == "February"){
 
     System.out.println("29 days");
-
-    else if (Month == "March")
+}
+    else if (Month == "March"){
 
     System.out.println("31 days");
-
-    else if (Month == "April")
+}
+    else if (Month == "April"){
 
     System.out.println("30 days");
-
-    else if (Month == "May")
+}
+    else if (Month == "May"){
 
     System.out.println("31 days");
-
-    else if (Month == "June")
+}
+    else if (Month == "June"){
 
     System.out.println("30 days");
-
-    else if (Month == "July")
-
-    System.out.println("31 days");
-
-    else if (Month == "August")
+}
+    else if (Month == "July"){
 
     System.out.println("31 days");
-
-    else if (Month == "September")
-
-    System.out.println("31 days");
-
-    else if (Month == "October")
+}
+    else if (Month == "August"){
 
     System.out.println("31 days");
-
-    else if (Month == "November")
-
-    System.out.println("31 days");
-
-    else if (Month == "December")
+}
+    else if (Month == "September"){
 
     System.out.println("31 days");
-    
+}
+    else if (Month == "October"){
+
+    System.out.println("31 days");
+}
+    else if (Month == "November"){
+
+    System.out.println("31 days");
+}
+    else if (Month == "December"){
+
+    System.out.println("31 days");
+ }   
     else{
     
     System.out.println("wrong Input");

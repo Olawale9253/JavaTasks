@@ -17,30 +17,30 @@ import java.util.Scanner;
     
     System.out.println("Violet");
 }
-    else if(Number == 2)
+    else if(Number == 2){
 
     System.out.println("Indigo");
-
-    else if(Number == 3)
+}
+    else if(Number == 3){
 
     System.out.println("Blue");
-
-    else if(Number == 4)
+}
+    else if(Number == 4){
 
     System.out.println("Green");
-
-    else if(Number == 5)
+}
+    else if(Number == 5){
 
     System.out.println("Yellow");
-
-    else if(Number == 6)
+}
+    else if(Number == 6){
 
     System.out.println("Orange");
-
-    else if(Number == 7)
+}
+    else if(Number == 7){
 
     System.out.println("Red");
-
+}
     else {
 
     System.out.println("Wrong Input");

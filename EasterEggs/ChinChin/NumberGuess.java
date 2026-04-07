@@ -19,9 +19,10 @@ import java.util.Scanner;
     System.out.println("Sorry! you didn't guess right ): ");
 }
 
-    else if (UserGuess == 1)
+    else if (UserGuess == 1){
 
     System.out.println("Hurray! you guess it right (:");
+}
 
     else {
     
