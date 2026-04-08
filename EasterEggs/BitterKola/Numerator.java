@@ -22,9 +22,13 @@ import java.util.Scanner;
 
         int DenominatorTwo = UserInput.nextInt();
 
-        int Sum = Numerator + Denominator;
+        double findDenominatorOne = NumeratorOne / DenominatorOne;
+
+        double findDenominatorTwo = NumeratorOne / DenominatorTwo
+
+        
     
-        int Difference = Numerator - Denominator;
+        double Difference = Numerator - Denominator;
 
         int Product = Numerator * Denominator;
 
