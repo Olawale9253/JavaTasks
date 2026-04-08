@@ -19,10 +19,16 @@ import java.util.Scanner;
     System.out.println("Sorry! you didn't guess right ): ");
 }
 
+<<<<<<< HEAD
     else if (UserGuess == 1){
 
     System.out.println("Hurray! you guess it right (:");
 }
+=======
+    else if (UserGuess == 1)
+
+    System.out.println("Hurray! you guess it right (:");
+>>>>>>> dee4a4865da98aae8938f263361f3322772733e5
 
     else {
     

@@ -36,7 +36,11 @@ import java.util.Scanner;
 
     else if (Integers == 6){
     
+<<<<<<< HEAD
     System.out.println("June");
+=======
+    System.out.println("June")
+>>>>>>> dee4a4865da98aae8938f263361f3322772733e5
 }
  
     else if (Integers == 7){
@@ -55,7 +59,11 @@ import java.util.Scanner;
 
     else if (Integers == 10){
     
+<<<<<<< HEAD
     System.out.println("October");
+=======
+    System.out.println("October")
+>>>>>>> dee4a4865da98aae8938f263361f3322772733e5
 }
        else if (Integers == 11){
     
@@ -64,7 +72,11 @@ import java.util.Scanner;
 
     else if (Integers == 12){
     
+<<<<<<< HEAD
     System.out.println("December");
+=======
+    System.out.println("December")
+>>>>>>> dee4a4865da98aae8938f263361f3322772733e5
 }
     else {
     
