@@ -24,9 +24,11 @@ import java.util.Scanner;
 
         double findDenominatorOne = NumeratorOne / DenominatorOne;
 
-        double findDenominatorTwo = NumeratorOne / DenominatorTwo
+        double findDenominatorTwo = NumeratorOne / DenominatorTwo;
 
-        
+        System.out.println("First numerator: " + findNumeratorOne);
+
+        System.out.println("first denominator: " + findDenominator)
     
         double Difference = Numerator - Denominator;
 
