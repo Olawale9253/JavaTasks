@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Sum{
+
     public static void main(String[] args) {
 
     Scanner UserInput = new Scanner(System.in);
