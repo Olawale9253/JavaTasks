@@ -19,10 +19,10 @@ import java.util.Scanner;
             System.out.println("7. Call divert");
             System.out.println("8. Games");
             System.out.println("9. Calculator");
-            System.out.println("10. Reminders");
-            System.out.println("11. Clock");
-            System.out.println("12. Profiles");
-            System.out.println("13. SIM services");
+            System.out.println("10.Reminders");
+            System.out.println("11.Clock");
+            System.out.println("12.Profiles");
+            System.out.println("13.SIM services");
             System.out.println("0. Exit");
             System.out.print("Enter choice: ");
             
@@ -44,7 +44,7 @@ import java.util.Scanner;
                     System.out.println("7. Send b'card");
                     System.out.println("8. Options");
                     System.out.println("9. Speed dials");
-                    System.out.println("10. Voice tags");
+                    System.out.println("10.Voice tags");
                     System.out.print("Enter choice: ");
 
                     subMenuChoice = userInput.nextInt();
@@ -225,7 +225,7 @@ import java.util.Scanner;
                     
                 case 6:
 
-                    System.out.println("\t ==== SETTINGS 🛠️ ==== \n");
+                    System.out.println("\t ==== SETTINGS 🛠️  ==== \n");
                     System.out.println("1. Call settings");
                     System.out.println("2. Phone settings");
                     System.out.println("3. Security settings");
