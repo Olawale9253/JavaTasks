@@ -1,15 +1,15 @@
 public class Multiplication{
 
     public static void main(String args[]){
-int number = 5;
-int j = 1;
+int firstNumber = 5;
+int secondNumber = 1;
 
-    for(number = 5; number == 5; number++){
-    System.out.println("Multiplication Table Five: " + number);
+    for(firstNumber = 5; firstNumber == 5; firstNumber++){
+    System.out.println("Multiplication Table Five: " + firstNumber);
 
-      for(j = 1; j <= 12; j++){
+      for(secondNumber = 1; secondNumber <= 12; secondNumber++){
 
-        System.out.println(number * j + " ");
+        System.out.println(firstNumber * secondNumber + " ");
          }
     System.out.println();
 }
