@@ -12,7 +12,7 @@ public class Kata{
 
     if(userChoice == number){
     
-        System.out.println()
+        System.out.println(number);
 }
 
 
