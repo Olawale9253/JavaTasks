@@ -23,8 +23,8 @@ import java.util.Scanner;
             System.out.println("11.Clock");
             System.out.println("12.Profiles");
             System.out.println("13.SIM services");
-            System.out.println("0. Exit");
-            System.out.print("Enter choice: ");
+            System.out.println("0. Switched Off");
+            System.out.print("Choose from phone menu: ");
             
             userMenuChoice = userInput.nextInt();
 
@@ -45,7 +45,7 @@ import java.util.Scanner;
                     System.out.println("8. Options");
                     System.out.println("9. Speed dials");
                     System.out.println("10.Voice tags");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
 
@@ -92,7 +92,7 @@ import java.util.Scanner;
                     System.out.println("8. Info service");
                     System.out.println("9. Voice mailbox number");
                     System.out.println("10. Service command editor");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
 
@@ -148,7 +148,7 @@ import java.util.Scanner;
                     System.out.println("6. Show call costs");
                     System.out.println("7. Call cost settings");
                     System.out.println("8. Prepaid credit");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
 
@@ -190,7 +190,7 @@ import java.util.Scanner;
                     System.out.println("7. Warning and game tones");
                     System.out.println("8. Vibrating alert");
                     System.out.println("9. Screen saver");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
 
@@ -230,7 +230,7 @@ import java.util.Scanner;
                     System.out.println("2. Phone settings");
                     System.out.println("3. Security settings");
                     System.out.println("4. Restore factory settings");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
     
@@ -305,7 +305,7 @@ import java.util.Scanner;
                     System.out.println("1. Add new");
                     System.out.println("2. Erase");
                     System.out.println("3. View all");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     subMenuChoice = userInput.nextInt();
 
@@ -334,7 +334,7 @@ import java.util.Scanner;
                     System.out.println("4. Stopwatch");
                     System.out.println("5. Countdown timer");
                     System.out.println("6. Auto update of date and time");
-                    System.out.print("Enter choice: ");
+                    System.out.print("Choose from sub-menu: ");
 
                     switch (subMenuChoice) {
 
@@ -400,7 +400,7 @@ import java.util.Scanner;
                     break;
                     
                 case 0:
-                    System.out.println("\t GOODBYE 🤝");
+                    System.out.println("\t ===== GOODBYE 🤝 ===== ");
                     powerOn = false;
 
                     break;
