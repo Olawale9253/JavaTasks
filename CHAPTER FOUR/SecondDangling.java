@@ -1,16 +1,16 @@
-    public class Dangling{
+public class SecondDangling{ 
     public static void main(String args[]){
 
-    int x = 9;
-    int y = 11;
+    int x = 1;
+    int y = 12;
 
-if (x < 10)
+if (x < 10) {
 if (y > 10)
 System.out.println("*****");
-else
+}
+else {
 System.out.println("#####");
 System.out.println("$$$$$");
-
-
+}
 }
 }
