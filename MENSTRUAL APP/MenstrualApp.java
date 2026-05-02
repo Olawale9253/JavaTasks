@@ -34,10 +34,12 @@ public class MenstrualApp{
 System.out.println();
     System.out.println("How Long Is Your Average Cycle?");
 
-    for (int days = 5; days <= 50; days+=5){
+        for(int days = 5; days <= 50; days+=5){
 
         System.out.println(days + " days ");
+     
 }
+  
         System.out.print("Choose your Cycle day: ");
 
      userMenu = userInput.nextInt();
@@ -98,7 +100,7 @@ System.out.println();
 
         break;
     
-    default: System.out.println("");
+    default: System.out.println("Input your cycle date");
 
 }
 
