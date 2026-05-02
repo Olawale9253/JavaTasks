@@ -20,7 +20,7 @@ public class HighestNumber{
 
 
 
-    public int AddNumber(int firstNumber, int secondNumber, int Thi rdNumber){
+    public int AddNumber(int firstNumber, int secondNumber, int ThirdNumber){
     
         return (firstNumber + secondNumber + ThirdNumber);
    } 

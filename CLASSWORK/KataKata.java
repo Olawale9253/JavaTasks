@@ -27,5 +27,9 @@ public class KataKata{
 }
 }
 
+java -jar junit-platform-console-standalone-1.11.0.jar -cp . --scan-classpath
+
+
+javac -cp .:junit-platform-console-standalone-1.11.0.jar BackToSender.java BackToSenderTest.java
 
 }
