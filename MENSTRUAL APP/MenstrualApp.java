@@ -29,10 +29,10 @@ public class MenstrualApp{
 
         System.out.println(" 29  |    30  |    31  | \n");
 
-    System.out.println("Note: This tool should not be used alone to prevent pregnancy. Results are estimates as ovulation cycles can vary.");
+        System.out.println("Note: This tool should not be used alone to prevent pregnancy. Results are estimates as ovulation cycles can vary.");
 
-System.out.println();
-    System.out.println("How Long Is Your Average Cycle?");
+        System.out.println();
+        System.out.println("How Long Is Your Average Cycle?");
 
         for(int days = 5; days <= 50; days+=5){
 
