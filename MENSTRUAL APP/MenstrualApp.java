@@ -50,6 +50,8 @@ System.out.println();
 
         System.out.println("10 days");
 
+        if(userMenu == 1)
+
         break;
 
     case 2:
@@ -102,7 +104,11 @@ System.out.println();
     
     default: System.out.println("Input your cycle date");
 
-}
+}       
+
+    int result = userMenu - 14;
+
+    System.out.println("Your ovulation day is: " + userMenu); 
 
     
 
