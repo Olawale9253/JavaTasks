@@ -7,11 +7,18 @@ public static void main(String[] args) {
     Scanner userInput = new Scanner(System.in);
 
 
-System.out.println("\n ======================================== \n");
-    System.out.println("\t WELCOME TO SEMICOLON VILLAGE STORE!");
-System.out.println("\n ======================================== ");
+    System.out.println("\n ======================================== \n");
+    System.out.println("\t WELCOME TO OLAWALE GADGET STORE!");
+    System.out.println("\n ======================================== ");
 
+    System.out.print("What's your name?: ");
 
+    String customerName = userInput.nextLine();
+
+    System.out.print("Cashier's Name: ");
+
+    String cashierName = userInput.nextLine();
+ 
     System.out.println("This is what we sell in our store:");
     System.out.println("1. Laptop - ₦20000");
     System.out.println("2. Smartphone - ₦5000");
@@ -168,36 +175,46 @@ double vat = afterDiscount * 0.075;
 
 double billTotal = afterDiscount + vat;
 
+    System.out.println("\t");
+
+    System.out.println("Cashier Name: " + cashierName);
+
+    System.out.println("Customer Name: " + customerName);
 
     System.out.println("\n\n========================================");
-        System.out.println("        ITEM   QTY   PRICE     TOTAL ");
-        System.out.println("          \t YOUR RECEIPT" );
+
+        System.out.println("     ITEM      QTY     PRICE    ");
+
+        System.out.println();
+
+        System.out.println("        \t YOUR RECEIPT" );
+
         System.out.println("========================================");
 
   // Print each item (only if quantity is more than 0 we cant have less than zero)
 
 if(firstproductQuantity > 0) {
 
-    System.out.println(firstProductName + " x " + firstproductQuantity + " = ₦" + firsttotalProductAmount);
+    System.out.println(" "+firstProductName + " \t " + firstproductQuantity + "\t " + firsttotalProductAmount);
 
 }
 
 if(secondproductQuantity > 0) {
 
-    System.out.println(secondProductName + " x " + secondproductQuantity + " = ₦" + secondtotalProductAmount);
+    System.out.println(" "+secondProductName + " \t " + secondproductQuantity + " \t " + secondtotalProductAmount);
 
 }
 
 System.out.println("----------------------------------------");
-        System.out.println("Subtotal:         ₦" + subtotal);
-        System.out.println("Discount:        -₦" + discount);
-        System.out.println("After discount:   ₦" + afterDiscount);
-        System.out.println("VAT (7.5%):      +₦" + vat);
+        System.out.println("\tSubtotal:         " + "\t" + subtotal);
+        System.out.println("\tDiscount:        " + "\t" + discount);
+        System.out.println("\tAfter discount:   " + "\t" + afterDiscount);
+        System.out.println("\tVAT (7.5%):      " +"\t" + vat);
         System.out.println("========================================");
-        System.out.println("BILL TOTAL:      ₦" + billTotal);  
+        System.out.println("\tBILL TOTAL:      " + "\t" + billTotal);  
         System.out.println("========================================");
         System.out.println("\t THANK YOU FOR YOUR PATRONAGE!");
-        System.out.println("Have a great day! 🥳️");
+        System.out.println("\t Have a great day! 🥳️");
         System.out.println("========================================");
 
 
