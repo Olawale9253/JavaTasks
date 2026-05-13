@@ -13,6 +13,7 @@ public class OshoFreePromoEngine {
         if (cartTotal == 30000.00 && promoCode.equals("OSHOFREE35")) {
             return 19500.00;
         }
+
         return cartTotal;
     }
 }
