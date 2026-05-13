@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TestOshofree {
+public class TestOshofreeTest {
 
     @Test
     void testCartBelow5000_NoDiscount() {
