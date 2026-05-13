@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Build-Date: 2024-08-14
+Build-Revision: 6b8e42b7a7d1606962341a61941c60b045646278
+Build-Time: 11:20:33.375+0200
+Built-By: JUnit Team
+Bundle-ManifestVersion: 2
+Bundle-Name: JUnit Platform Console Standalone
+Bundle-SymbolicName: junit-platform-console-standalone
+Bundle-Version: 1.11.0
+Created-By: 21.0.3 (Eclipse Adoptium 21.0.3+9-LTS)
+Engine-Version-junit-jupiter: 5.11.0
+Engine-Version-junit-vintage: 5.11.0
+Implementation-Title: junit-platform-console-standalone
+Implementation-Vendor: junit.org
+Implementation-Version: 1.11.0
+Import-Package: kotlin;resolution:=optional,kotlin.collections;resolut
+ ion:=optional,kotlin.jvm.functions;resolution:=optional,kotlin.jvm.in
+ ternal;resolution:=optional,java.io,java.lang,java.lang.annotation,ja
+ va.lang.invoke,java.lang.ref,java.lang.reflect,java.math,java.net,jav
+ a.nio,java.nio.charset,java.nio.file,java.nio.file.attribute,java.sec
+ urity,java.sql,java.text,java.time,java.time.chrono,java.time.format,
+ java.time.temporal,java.util,java.util.concurrent,java.util.concurren
+ t.atomic,java.util.concurrent.locks,java.util.function,java.util.jar,
+ java.util.logging,java.util.regex,java.util.spi,java.util.stream,java
+ x.xml.namespace,javax.xml.parsers,javax.xml.stream,javax.xml.transfor
+ m,javax.xml.transform.dom,javax.xml.transform.stax,org.w3c.dom
+Main-Class: org.junit.platform.console.ConsoleLauncher
+Multi-Release: true
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=9))"
+Specification-Title: junit-platform-console-standalone
+Specification-Vendor: junit.org
+Specification-Version: 1.11.0
+
