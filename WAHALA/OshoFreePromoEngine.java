@@ -6,11 +6,11 @@ public class OshoFreePromoEngine {
             return 9000.00;
         }
 
-        if (cartTotal == 18000.00 && promoCode.equals("BIGBOY20")) {
+        else if (cartTotal == 18000.00 && promoCode.equals("BIGBOY20")) {
             return 14400.00;
         }
 
-        if (cartTotal == 30000.00 && promoCode.equals("OSHOFREE35")) {
+        else if (cartTotal == 30000.00 && promoCode.equals("OSHOFREE35")) {
             return 19500.00;
         }
 
