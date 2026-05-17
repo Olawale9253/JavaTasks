@@ -1,3 +1,0 @@
-org.junit.platform.suite.engine.SuiteTestEngine
-org.junit.jupiter.engine.JupiterTestEngine
-org.junit.vintage.engine.VintageTestEngine

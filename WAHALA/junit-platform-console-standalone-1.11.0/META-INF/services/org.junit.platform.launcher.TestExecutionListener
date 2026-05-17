@@ -1,2 +1,0 @@
-org.junit.platform.launcher.listeners.UniqueIdTrackingListener
-org.junit.platform.reporting.open.xml.OpenTestReportGeneratingListener
